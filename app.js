@@ -40,7 +40,7 @@ const submitRequest = async (data) => {
     );
     let jsonResponse = await response.json();
     if (jsonResponse.success) {
-      location.pathname = "/reegpt-admin/success.html";
+      location.pathname = "/success.html";
     } else {
       return handleFillAll(
         jsonResponse?.msg || "An error occured. Please try again."
