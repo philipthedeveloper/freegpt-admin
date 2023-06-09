@@ -30,7 +30,7 @@ formEl.addEventListener("submit", function (e) {
 const submitRequest = async (data) => {
   try {
     let response = await fetch(
-      "https://8aa8-154-113-100-19.ngrok-free.app/api/v1/user-request",
+      "https://freegpt-d7zp.onrender.com/api/v1/user-request",
       {
         method: "POST",
         body: JSON.stringify(data),
